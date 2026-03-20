@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import requests
 from datetime import datetime
+import os
+
 
 st.set_page_config(page_title="Rainfall Dashboard", page_icon="🌧️", layout="wide")
 
@@ -32,7 +34,7 @@ model = model_data["model"]
 feature_names = model_data["feature_names"]
 
 # ================== API KEY ==================
-api_key = "e66ada1844c76e47741f3781ce1764e8"
+api_key = os.getenv("API_KEY")
 
 # ================== TITLE ==================
 st.title("🌧️ Rainfall Prediction Dashboard")
