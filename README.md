@@ -1,5 +1,7 @@
 # 🌧️ Rainfall Prediction App
 
+🚀 **Live Demo:** https://rainfall-prediction-app-gwbimtwk7z8xubhxbgnqjg.streamlit.app/
+
 A smart web application that predicts rainfall using Machine Learning and displays real-time weather data using OpenWeather API.
 
 ---
@@ -22,7 +24,13 @@ A smart web application that predicts rainfall using Machine Learning and displa
 * Scikit-learn
 * Plotly
 * OpenWeather API
-  
+
+---
+
+## 🌐 Deployment
+
+This application is deployed on Streamlit Cloud and accessible via the live link above.
+
 ---
 
 ## ⚙️ How to Run
@@ -51,11 +59,13 @@ streamlit run app.py
 ## 🔑 API Setup
 
 * Get API key from https://openweathermap.org/api
-* Replace in code:
+* Set environment variable:
 
-```python
-api_key = "e66ada1844c76e47741f3781ce1764e8"
+```bash
+API_KEY=your_api_key_here
 ```
+
+* The app securely reads the API key using environment variables.
 
 ---
 
@@ -78,8 +88,8 @@ api_key = "e66ada1844c76e47741f3781ce1764e8"
 
 * 📍 Map-based location selection
 * 📱 Mobile responsive UI
-* ☁️ Cloud deployment
 * 🤖 Advanced ML model
+* 🔔 Rain alert system
 
 ---
 
@@ -91,3 +101,4 @@ B.Tech ECE | Web Developer
 ---
 
 ⭐ If you like this project, give it a star!
+
